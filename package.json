@@ -1,0 +1,24 @@
+{
+  "name": "bug-agent",
+  "version": "0.1.0",
+  "description": "Agentic code review and bug testing using AWS Bedrock",
+  "main": "src/index.js",
+  "bin": {
+    "bug-agent": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "bug",
+    "agent",
+    "bedrock"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
