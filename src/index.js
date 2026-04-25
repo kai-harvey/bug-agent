@@ -21,7 +21,7 @@ function printUsage() {
 Usage: bug-agent --repo <repository>
 
 Options:
-  --repo, -r   Repository to analyse (e.g. "owner/repo")  [required]
+  --repo, -r   Repository to analyze (e.g. "owner/repo")  [required]
   --help, -h   Show this help message
 `.trim());
 }
